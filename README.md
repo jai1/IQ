@@ -1,0 +1,2 @@
+# IQ
+Interview Questions solved
