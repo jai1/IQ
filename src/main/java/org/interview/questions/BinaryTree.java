@@ -61,8 +61,8 @@ public class BinaryTree {
     /*
      * ##InorderTraversal - Left Mid Right ##Medium In order means the order in which you see the nodes if you were
      * looking from the bottom of the tree (left to right) In this method we use in order traversal and don't rely on
-     * Integer.MIN_VALUE and Integer.MAX_VALUE Algorithm:- start from the left most node - the next node should be
-     * greater than this node and so on. (i.e in order traversal where next Node > prev Node)
+     * Integer.MIN_VALUE and Integer.MAX_VALUE Algorithm:- start from the left most node - the children node should be
+     * greater than this node and so on. (i.e in order traversal where children Node > prev Node)
      */
     public static boolean isValidBST_1(BinaryNode<Integer> node) {
         prev = null;

@@ -50,3 +50,6 @@ local.properties
 .scala_dependencies
 .worksheet
 /target/
+
+# Test files
+test-output/
